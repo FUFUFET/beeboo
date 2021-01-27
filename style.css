@@ -28,14 +28,24 @@ nav{
 }
 
 .linkedin{ float:right;
-    text-align: center;
-    margin-top: 22px;
+    margin-top: 6px;
     margin-right: 102px;
     font-size: 17px;
 
 }
-li {
+.aboutme{
+    display: inline-block;
+}
+.casestudy{
+    display: inline-block;
+}
+.resume{
+    display: inline-block;
+}
+.nav-links{
     float: right;
+}
+li {
     color: #000000;
     text-align: center;
     display: table;
@@ -96,7 +106,9 @@ footer{
     font-size: 40px;
     font-weight: bold;
     font-family:Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 40px 0px 12px 200px;
+    margin-right: auto;
+    margin-left: 300px;
+    margin-bottom: 0px;
     padding: 0px;
     line-height: 0pt;
 }
@@ -106,9 +118,11 @@ footer{
         font-family:Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
         line-height: 0pt;
         font-weight: bold;
+        padding-top: 10px;
 }
 .uxui{
-    margin-left: 200px;
+    margin-right: auto;
+    margin-left: 300px;
     padding: 0px;
     line-height: 0pt;
 }
@@ -117,7 +131,11 @@ footer{
 }
 #kenken{
     display: block;
-    margin-left: 270px;
+    margin-top: 0px;
+    margin-right: 250px;
+   
+  
+    margin-right: auto ;
     
     
     
