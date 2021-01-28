@@ -64,8 +64,7 @@ li {
     font-family:Roboto;
    }
 
-.nav-links a:focus {
-    font-size: 16px;
+ a:focus {
     outline: none;
     box-shadow: 0 0 0 5px rgb(0, 255, 191);
     
