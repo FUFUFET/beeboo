@@ -1,9 +1,13 @@
-.container{
+
+html {
+    font-size:10px;
+  }
+  .container{
     display: grid;
     height: 100vh;
-    grid-template-columns:1fr 1fr;
-    grid-template-rows:0.1fr 0.6fr 0.8fr 0.4fr 0.4fr;
-    grid-template-areas: "nav nav""whitespace0 whitespace0""main B" "whitespace1 whitespace1""footer footer" ;
+    grid-template-columns:1fr ;
+    grid-template-rows:0.1fr 0.1fr 0.5fr 0.1fr 0.2fr;
+    grid-template-areas: "nav nav""whitespace0 whitespace0""main main" "whitespace1 whitespace1""footer footer" ;
 }
 a{text-decoration: none;
 }
@@ -15,7 +19,7 @@ a:visited {
 
 
 nav{
-    background-color: #ffffff;
+    background-color: #f89898;
     grid-area: nav;
     }
 
@@ -36,9 +40,8 @@ nav{
 
 }
 .aboutme{
-    display: inline-block;
-   
-}
+    display: inline-block;}
+
 .casestudy{
     display: inline-block;
 }
@@ -83,69 +86,104 @@ li {
 }
      
 #whitespace0{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 248, 148);
     grid-area:whitespace0;
 }
 main{
-    background-color:rgb(255, 255, 255);
-    grid-area:main;
+    grid-area: main;
+    display: flex;}
+    
    
+
+.right {
+  width: 50%;
+  background-color: green;
+  position: relative;
+  
 }
-#B{
-    background-color:rgb(255, 255, 255);
-    grid-area:B;
+.left {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+  }
+  
+.box1{
+    background-color: aquamarine;
+    width: 80%;
+    position: absolute;
+    top: 30%;
+    right: 0%;
+}
+ #kensumiyoshi{font-size:4rem;
+    font-weight: bold;
+    font-family:Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+line-height: 0.1em;
+margin: 10px 0px;
+position: absolute;
+top: -7%;
+
+}
+ #dreamjob{
+display: inline-block;
+align-items: center;
+font-size: 2rem;
+font-weight: bold;
+font-family:Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+line-height: 1em; 
+
 }
 
+
+
+
+        
+            
+        
+
+    .was1{
+    padding-right: 10px;
+   
+}
+    .was2{
+        word-wrap: break-word;
+        width: 100%; 
+  font-size: 20px;
+font-family:Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+    
+#kenken
+{position: absolute;
+top: 10%;
+left: 20%;}
+
+
 #whitespace1{
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(172, 255, 151);
     grid-area:whitespace1;
 }
 footer{
-    background-color:rgb(255, 255, 255);
-    grid-area:footer;
-}
-
-
-#ken{
-    font-size: 40px;
-    font-weight: bold;
     font-family:Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-right: auto;
-    margin-left: 400px;
-    margin-bottom: 0px;
-    padding: 0px;
-    line-height: 0pt;
+    background-color:rgb(113, 171, 247);
+    grid-area:footer;
+    font-size: 3rem;
+
 }
-.was{
-    display:inline-block;
-    font-size: 20px;
-        font-family:Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
-        line-height: 0pt;
-        font-weight: bold;
-        padding-top: 10px;
+#email{
+    font-size: 2rem;
 }
-.uxui{
-    margin-right: auto;
-    margin-left: 400px;
-    padding: 0px;
-    line-height: 0pt;
-}
-#atl{
-    padding-left: 5px;
-}
-#kenken{
-    display: block;
-    margin-top: 0px;
-    margin-left: 150px;
+
+
+
+
     
     
    
   
-    margin-right: auto ;
+
     
     
     
-}
+
 
 
 
@@ -162,12 +200,4 @@ line-height: 4px;
      
    }
    .contact{margin-top: 110px;}
-   .was1{
-    width: 560px; 
-    height: 200px;
-    line-height: 24px;
-    font-size: 20px;
-        font-family:Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
-
-       }
+   
