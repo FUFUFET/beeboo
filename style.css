@@ -5,10 +5,11 @@ html {
   .container{
     display: grid;
     height: 100vh;
-    grid-template-columns:1fr ;
+    grid-template-columns:1fr 1fr ;
     grid-template-rows:0.1fr 0.1fr 0.5fr 0.1fr 0.2fr;
     grid-template-areas: "nav nav""whitespace0 whitespace0""main main" "whitespace1 whitespace1""footer footer" ;
 }
+
 a{text-decoration: none;
 }
 a:link{color: rgb(0, 0, 0);}
@@ -28,6 +29,11 @@ nav{
     width:90%;
     }
 
+    @media (max-width:767px){
+        nav{font-size:1rem;
+         
+    }}
+
    
 #logo{
     margin-right:auto;
@@ -35,7 +41,13 @@ nav{
     position: absolute;
     top: 3%;
     left: 10%;
-}
+    } 
+    @media (max-width:767px){
+        #logotext{font-size:20px;
+         
+    }}
+
+    
 
 #linkedin{ margin-left:auto;
     margin-right:0 auto;
@@ -78,11 +90,22 @@ li {
 
    
 }
+
+@media (max-width:767px){
+    li{font-size:1rem;
+     
+}}
+
 .nav-links a:hover {
     font-size: 1.6rem;
     color: rgb(0, 255, 191);
     font-family:Roboto;
    }
+
+   @media (max-width:767px){
+    .nav-links a:hover{font-size:1rem;
+       
+}}
 
  a:focus {
     outline: none;
@@ -93,8 +116,13 @@ li {
     font-weight: bold;
     
         }
-
-      
+        
+        @media (max-width:767px){
+            a:focus{font-size:1.5rem;
+                padding: 7px;
+               
+        }}
+        
             
 #active {
 
@@ -114,20 +142,34 @@ li {
 main{
     grid-area: main;
     display: flex;}
-    
    
-
 .right {
   width: 50%;
   background-color: rgb(255, 255, 255);
   position: relative;
   
 }
+
+/* @media (max-width:767px){
+    .right{
+        position:none;
+      
+        display: block;
+      }} */
+
 .left {
     width: 50%;
     background-color: rgb(255, 255, 255);
     position: relative;
   }
+
+  /* @media (max-width:767px){
+    .left{
+        position:none;
+       
+        display: block;
+        
+      }} */
   
 .box1{
     background-color: rgb(255, 255, 255);
@@ -136,6 +178,14 @@ main{
     top: 40%;
     right: 0%;
 }
+
+/* @media (max-width:767px){
+    .box1{
+        position:absolute;
+        top: 70%;
+        left: 62.5%;
+        width: 100%;
+      }} */
  #kensumiyoshi{font-size:4rem;
     font-weight: bold;
     font-family:Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -145,6 +195,15 @@ position: absolute;
 top: -7%;
 
 }
+
+@media (max-width:767px){
+    #kensumiyoshi{font-size:2rem;
+        font-weight: bold;
+        font-family:Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+        line-height: 0.1em;
+margin: 5px 0px;
+}}
+
  #dreamjob{
 display: inline-block;
 align-items: center;
@@ -154,21 +213,55 @@ font-family:Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 line-height: 1em; 
 
  }
+ @media (max-width:767px){
+    #dreamjob{font-size:1rem;
+        font-weight: bold;
+        font-family:Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+        line-height: 1em;
+margin:0px;
+}}
+
     .was1{
     padding-right: 10px;
    
 }
+
+@media (max-width:767px){
+    .was1 img{width: 10px;
+        height: 10px;
+      
+}}
+
     .was2{
         word-wrap: break-word;
         width: 100%; 
-  font-size: 20px;
+  font-size: 2rem;
 font-family:Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+@media (max-width:767px){
+    .was2{font-size:1rem;
+        font-family:Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+        line-height: 1.2em;
+margin:0px;
+}}
+
     
 #kenken
 {position: absolute;
 top: 15%;
 left: 33%;}
+
+@media (max-width:767px){
+    #kenken{width: 150px;
+        height: 150px;
+      
+}}
+
+/* @media (min-witdh:768px) and (max-width:1023px){
+    #kenken{position: absolute;
+        top: 15%;
+        left: 15%;}
+}  */
 
 
 #whitespace1{
@@ -188,11 +281,22 @@ footer{ font-family:Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: 120px;
     font-size: 3rem;
     line-height: 0.1em;
-   
+   }
 
-}
+   @media (max-width:767px){
+    .box2{margin-top: 10px;
+        font-size: 2rem;
+        line-height: 0.1em;
+      
+}}
 
     .email{
         font-size: 2rem;
     }
 
+    @media (max-width:767px){
+        .email{
+            font-size: 1rem;
+            line-height: 0.1em;
+          
+    }}
