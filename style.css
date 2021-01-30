@@ -1,6 +1,7 @@
 
 html {
     font-size:10px;
+    background-color: #E5E5E5;
   }
 
   .container{
@@ -30,7 +31,7 @@ a:visited {
 
 
 nav{
-    background-color: #ffffff;
+    background-color: #E5E5E5;
     grid-area: nav;
     font-size: 1.6rem;
     display: flex;
@@ -145,7 +146,7 @@ li {
 }
      
 #whitespace0{
-    background-color: rgb(255, 255, 255);
+    background-color: #E5E5E5;
     grid-area:whitespace0;
 }
 main{
@@ -164,7 +165,7 @@ main{
    
 .right {
   width: 50%;
-  background-color: rgb(255, 255, 255);
+  background-color: #E5E5E5(255, 255, 255);
   position: relative;
   
 }
@@ -179,7 +180,7 @@ main{
 
 .left {
     width: 50%;
-    background-color: rgb(255, 255, 255);
+    background-color: #E5E5E5(255, 255, 255);
     position: relative;
   }
 
@@ -193,7 +194,7 @@ main{
 
   
 .box1{
-    background-color: rgb(255, 255, 255);
+    background-color: #E5E5E5(255, 255, 255);
     width: 75%;
     position: absolute;
     top: 40%;
@@ -288,7 +289,7 @@ left: 33%;}
 
 
 #whitespace1{
-    background-color:rgb(255, 255, 255);
+    background-color:#E5E5E5;
     grid-area:whitespace1;
 }
 
@@ -296,7 +297,7 @@ left: 33%;}
 
 
 footer{ font-family:Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color:rgb(255, 255, 255);
+    background-color:#E5E5E5;
     grid-area:footer;
     text-align: center;
 }
