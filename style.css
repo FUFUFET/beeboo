@@ -18,11 +18,8 @@ html {
         grid-template-columns:1fr ;
         grid-template-rows:0.1fr 1fr 0.1fr;
         grid-template-areas: "nav""main""footer" ;
-    }}
-    .visually-hidden{
-        display: none;
-    }
-
+    }}  
+   
 
 a{text-decoration: none;
 }
@@ -40,7 +37,7 @@ nav{
     display: flex;
     justify-content:center;
     align-items:center;
-    width:90%;
+    width:100%;
     }
 
     @media (min-width:0) and (max-width:767px){
@@ -51,7 +48,7 @@ nav{
    
 #logo{margin-right: auto;
     margin-left:10%;
-    margin-top: 1px;
+    margin-top: 0;
 
 } 
 @media (min-width:0) and (max-width:767px){
@@ -61,13 +58,7 @@ nav{
 
     
 
-#linkedin{ margin-left:auto;
-    margin-right:0 auto;
-    margin-top: 5px;
-}
-@media (min-width:0) and (max-width:767px){
-    #linkedin{width: 70%;   
-}}
+
    
 /* .aboutme{
     display: inline-block;}
@@ -92,7 +83,7 @@ ul{
     justify-content:flex-end;
     position: absolute;
     top:10px;
-    right:10%;
+    right:5%;
 }
 li {
     color: #000000;
@@ -103,6 +94,14 @@ li {
 
    
 }
+
+#linkedin{ margin-left:auto;
+    margin-right:0;
+    margin-top: -5px;
+}
+@media (min-width:0) and (max-width:767px){
+    #linkedin{width: 70%;   
+}}
 
 @media(min-width:0) and  (max-width:767px){
     li{font-size:1rem;
