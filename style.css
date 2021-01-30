@@ -19,6 +19,9 @@ html {
         grid-template-rows:0.1fr 1fr 0.1fr;
         grid-template-areas: "nav""main""footer" ;
     }}
+    .visually-hidden{
+        display: none;
+    }
 
 
 a{text-decoration: none;
