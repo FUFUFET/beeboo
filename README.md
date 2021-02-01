@@ -1,3 +1,3 @@
-This is a homework
+This is my porfolio homepage
 
 https://fufufet.github.io/beeboo/
