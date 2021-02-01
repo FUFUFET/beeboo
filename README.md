@@ -1,3 +1,2 @@
-This is my porfolio homepage
-
+This is my portfolio homepage .
 https://fufufet.github.io/beeboo/
