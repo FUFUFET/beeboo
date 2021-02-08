@@ -1,63 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Rock Salt" rel="stylesheet" type="text/css">
         <link href=style.css type="text/css" rel="stylesheet">
+        <meta charset="utf-8">
+        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
         
         <title>About Me</title>
+
+        
     </head>
     <body>
-    <div class="container">
-        <nav>
-            <!-- <a href="#About Me"></a>
-                <svg id="logo" width="200" height="70" role="img" focusable="true" >
-                    <title>About me</title>
-                <text id="text" x="102" y="48" font-size="30px"  fill="#000" font-family="Rock Salt">
-                     K.$
-                    </text>
-                    </svg></a> -->
-                    <a href="#About Me" id="logo">
-                <img src="svglogo.svg" role="img" alt="about me" aria-current="page" >
-                </a>
-                
-               <ul class=nav-links>
-               
-                <li><a href="#About Me" id="active"aria-current="page">
+        <div class="overlay">
+            <button id="close" >
+            <img src="close-24px.svg" role="img" alt="close" class="material-icons" > </button>
+            <div role="navigation">
+                <ul class="nav-links">
+                <li><a href="#About Me" class="active"aria-current="page" >
                     About Me</a>
                 </li>
                 <li><a href="#" >Case Study</a></li>
                 <li><a href="#" >Resume</a></li>
                 <li>
-                <a href="https://www.linkedin.com/in/ken-sumiyoshi/" target="_blank" ><img src="linkedin-24.png" id="linkedin"alt="linked in,open in new window"></a></li>
-                </ul> 
+                <a href="https://www.linkedin.com/in/ken-sumiyoshi/" target="_blank" >Linked in</a></li>
+                </ul>
+            </div>
+        </div>
+
+    <div class="container">
+        <nav>
+         <a href="#About Me" id="logo">
+                <img src="svglogo.svg" role="img" alt="about me" aria-current="page" width="44px"id="ks" >
+                </a>
+
+         
+                <ul class="pc-menu" >
+                    <li><a href="#About Me" class="active"aria-current="page">
+                        About Me</a>
+                    </li>
+                    <li><a href="#" >Case Study</a></li>
+                    <li><a href="#" >Resume</a></li>
+                    <li>
+                    <a href="https://www.linkedin.com/in/ken-sumiyoshi/" target="_blank" > <img src="linkedin-24.svg" role="img" alt="linked in" width="24px" ></a></li>
+                    </ul>
+      
+                
+        <button class="sp-menu">       
+        <img src="menu-24px.svg" role="img" alt="menu" class="material-icons" id="open" width="32px" >
+    </button>
+  
+         
         </nav>
-        <div id="whitespace0"></div>
+       
         <main>
             <div class="left">
-                <div class="box1">
-                <h1 id="kensumiyoshi">Ken Sumiyoshi</h1>
-                <div id="dreamjob">
-                <p class="was1" >UX Designer/Web Accessibility Specialist    
-                <img src="location-icon.png"alt="location" width="16px" height="16"><span>Atlanta ,GA</span></p></div>
-             
-                <p class="was2">I am a freelance UX/UI designer / Web Accessibility Specialist. I specialize in accessibility and enjoy solving accessibility issues. I believe designing for users who has disabilities helps users who do not have disabilities as well.
-                    </p>
+              <div class="box1">
+                <h1>Ken Sumiyoshi</h1>
+                <p class="was1" >UX Designer/Web Accessibility Specialist </p> 
+                <img src="location-icon.png"alt="location" width="16px" height="16" id="atl"><span>Atlanta ,GA</span>
+             <p class="was2">I am a freelance UX/UI designer / Web Accessibility Specialist. I specialize in accessibility and enjoy solving accessibility issues. I believe designing for users who has disabilities helps users who do not have disabilities as well.
+                    </p></div>
 
-            </div></div>
+            </div>
             <div class="right">
+                <div class="box2">
                 <img src="profile.png" id="kenken"alt="ken sumiyoshi" width=350px
                 height=350px>
-
             </div>
         </main>
    
-        <div id="whitespace1"></div>
-    
             <footer>
-                
-             <div class="box2"> 
-            <p class="contact">Contact</p>
-            <p class="email">KENSUMIYOSHI1987@gmail.com</p></div></footer></body>
+                <p class="contact">Contact</p>
+                <p class="email">KENSUMIYOSHI1987@gmail.com</p>
+            </footer>
+        </div>
+
+        <script src="index.js"></script>
+        </body>
 
 </html>
